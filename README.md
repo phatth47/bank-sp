@@ -2,15 +2,14 @@
 
 A new Flutter project prepare for development.
 
-## Getting Started
+## Setup Project
+Run these command below:
 
-This project is a starting point for a Flutter application.
+````dart
+flutter pub get
 
-A few resources to get you started if this is your first Flutter project:
+flutter packages pub run build_runner build
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+````
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Build Application
