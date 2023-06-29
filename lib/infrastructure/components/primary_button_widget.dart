@@ -17,7 +17,7 @@ class PrimaryButtonWidget extends StatelessWidget {
     return ElevatedButton(
       style: OutlinedButton.styleFrom(
         elevation: 0,
-        backgroundColor: ColorName.secondary,
+        backgroundColor: ColorName.secondaryDark,
         minimumSize: Size(width, 48),
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(24),

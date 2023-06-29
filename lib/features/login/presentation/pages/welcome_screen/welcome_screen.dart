@@ -1,7 +1,9 @@
 import 'package:bank_sp/gen/assets.gen.dart';
 import 'package:bank_sp/gen/colors.gen.dart';
 import 'package:bank_sp/infrastructure/components/primary_button_widget.dart';
+import 'package:bank_sp/infrastructure/router/router.dart';
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 
 class WelcomeScreen extends StatelessWidget {
   const WelcomeScreen({super.key});
@@ -41,7 +43,9 @@ class WelcomeScreen extends StatelessWidget {
             const SizedBox(height: 50),
             PrimaryButtonWidget(
               title: 'Login / Register',
-              onPressed: () {},
+              onPressed: () {
+                context.go(AppRouter.homePath);
+              },
             ),
             const SizedBox(height: 16),
             const Padding(
