@@ -47,6 +47,10 @@ dependencies:
   # https://github.com/felangel/bloc
   flutter_bloc: ^8.1.3
 
+  # A HTTP client
+  # https://github.com/cfug/dio
+  dio: ^5.2.1+1
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
